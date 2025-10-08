@@ -1,5 +1,5 @@
 ﻿
-using Tyuiu.DyuvenzhiMI.Sprint2.Task2.V19.Lib;
+using Tyuiu.DyuvenzhiMI.Sprint2.Task3.V13.Lib;
 
 internal class Program
 {
@@ -10,8 +10,8 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #2                                                               *");
         Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-        Console.WriteLine("* Задание #1                                                              *");
-        Console.WriteLine("* Вариант #4                                                             *");
+        Console.WriteLine("* Задание #3                                                              *");
+        Console.WriteLine("* Вариант #13                                                             *");
         Console.WriteLine("* Выполнил: Дювенжи Максим Иванович | ПИНТб-25-1                          *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -21,28 +21,16 @@ internal class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        int x, y;
-        Console.WriteLine("Введите координату x:");
-        x = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Введите координату y:");
-        y = Convert.ToInt32(Console.ReadLine());
-
         DataService ds = new DataService();
-        bool res = ds.CheckDotInShadedArea(x, y);
+        Console.WriteLine("Введите x:");
+        double x = Convert.ToDouble(Console.ReadLine());
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine(res);
 
-
-        int a = 0; int k = 3;
-
-        if (k > 0) { if (k > 5) a = 1; }
-
-        else a = 2;
-        Console.WriteLine(a);
+        Console.WriteLine("Ответ: " + ds.Calculate(x));
 
         Console.ReadLine();
     }
