@@ -31,7 +31,7 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine(ds.FindMonthName(1990, 1+n));
+        Console.WriteLine(ds.FindMonthName(1990, 2+n));
 
         Console.ReadLine();
     }
