@@ -11,16 +11,16 @@ namespace Tyuiu.DyuvenzhiMI.Sprint2.Task5.V4.Lib
             switch(value)
             {
                 case 1:
-                    res = "Пики";
+                    res = "пики";
                     break;
                 case 2:
-                    res = "Трефы";
+                    res = "трефы";
                     break;
                 case 3:
-                    res = "Бубны";
+                    res = "бубны";
                     break;
                 case 4:
-                    res = "Червы";
+                    res = "червы";
                     break;
                 default:
                     throw new ArgumentException($"Значение должно быть от 1 до 4. Значение {value}");
