@@ -26,7 +26,6 @@ internal class Program
         int n = Convert.ToInt32(Console.ReadLine());
 
 
-
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
