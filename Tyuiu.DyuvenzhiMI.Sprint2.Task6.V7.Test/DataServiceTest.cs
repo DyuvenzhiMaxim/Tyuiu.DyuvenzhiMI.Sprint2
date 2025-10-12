@@ -11,7 +11,7 @@ namespace Tyuiu.DyuvenzhiMI.Sprint2.Task6.V7.Test
         {
             DataService ds = new DataService();
             int n = 2;
-            Assert.AreEqual("февраль", ds.FindMonthName(1990, n));
+            Assert.AreEqual("февраль", ds.FindMonthName(1990, 1+n));
             Assert.AreEqual("июнь", ds.FindMonthName(1990, 30));
         }
     }
