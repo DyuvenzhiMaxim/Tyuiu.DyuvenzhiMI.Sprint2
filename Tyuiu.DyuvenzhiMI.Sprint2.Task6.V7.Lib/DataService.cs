@@ -7,6 +7,7 @@ namespace Tyuiu.DyuvenzhiMI.Sprint2.Task6.V7.Lib
     {
         public string FindMonthName(int startYear, int n)
         {
+            n = n + 1;
             while (n > 12)
             {
                 n -= 12;
